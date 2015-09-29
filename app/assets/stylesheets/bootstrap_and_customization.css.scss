@@ -1,1 +1,12 @@
+$body-bg: #e2efff;
+$navbar-inverse-brand-hover-bg: transparent;
+$navbar-inverse-bg: #7f8c8d;
+$navbar-inverse-link-color: white;
+$navbar-inverse-link-hover-color: blue;
+$navbar-inverse-brand-hover-color: $navbar-inverse-link-hover-color;
+$jumbotron-bg: darken($body-bg, 2%);
+$brand-primary: darken(#428bca, 6.5%);
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+

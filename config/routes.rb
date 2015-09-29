@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about" #This creates an about_path
-
+  get "new" => "pages#new"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
