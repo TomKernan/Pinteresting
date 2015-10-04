@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
+gem 'sdoc', '~> 0.4.0'
     
 
 group :development, :test do
@@ -17,11 +18,6 @@ end
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'	
-end
-
-group: :doc do
-	gem 'sdoc', '~> 0.4.0', require: false
-	
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
