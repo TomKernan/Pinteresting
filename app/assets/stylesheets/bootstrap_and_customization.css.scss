@@ -1,12 +1,21 @@
-$body-bg: #e2efff;
-$navbar-inverse-brand-hover-bg: transparent;
-$navbar-inverse-bg: #7f8c8d;
-$navbar-inverse-link-color: white;
-$navbar-inverse-link-hover-color: blue;
-$navbar-inverse-brand-hover-color: $navbar-inverse-link-hover-color;
-$jumbotron-bg: darken($body-bg, 2%);
-$brand-primary: darken(#428bca, 6.5%);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+$font-family-sans-serif:           'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$body-bg: 							#bdc3c7;
+$brand-primary: 					red; 
+$navbar-height:						45px;
+$navbar-default-bg: 				white;
+$navbar-default-brand-color: 		red;
+$jumbotron-bg: 						$navbar-default-bg;
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+	
+.center {
+     text-align: center;
+}
 
+.navbar-brand {
+     font-weight: bold;
+}
