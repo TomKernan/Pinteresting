@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'sdoc', '~> 0.4.0'
+gem 'devise', '~> 3.5.2'
+
     
 
 group :development, :test do
